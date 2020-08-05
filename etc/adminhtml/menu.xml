@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Kappa_Marvis::content" 
+            title="Marvis Multi Content" 
+            module="Kappa_Marvis" 
+            sortOrder="9999" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::content"/>
+
+        <add id="Kappa_Marvis::simplebanner" 
+            title="Simple Banner" 
+            module="Kappa_Marvis"
+            sortOrder="10"
+            action="kappa_marvis/simplebanner/index" 
+            resource="Kappa_Marvis::simplebanner" 
+            parent="Kappa_Marvis::content"/>
+
+<!--         <add id="Kappa_Marvis::dobule_triple_banner" 
+            title="Double/Triple Banner" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/dobule_triple_banner" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::triple_banner" 
+            title="Triple Banner" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/triple_banner" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+        
+        <add id="Kappa_Marvis::collage" 
+            title="Collage" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/collage" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::glitch_banner" 
+            title="Glitch Banner" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/glitch_banner" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::hover_banner" 
+            title="Hover Banner" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/hover_banner" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::overlay_banner" 
+            title="Overlay Banner" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/overlay_banner" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::banner_grid"
+            title="Banner Grid" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/banner_grid" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::simple_slider" 
+            title="Simple Slider" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/simple_slider" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::logo_slider"
+            title="Logo Slider" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/logo_slider" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+        
+        <add id="Kappa_Marvis::product_banner"
+            title="Product Banner" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/product_banner" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::product_slider"
+            title="Product Slider" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/product_slider" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/>
+
+        <add id="Kappa_Marvis::case_study"
+            title="Case Study" 
+            module="Kappa_Marvis" 
+            sortOrder="10" 
+            action="kappa_marvis/case_study" 
+            resource="Magento_Backend::content" 
+            parent="Magento_Backend::Content"/> -->
+
+    </menu>
+    
+</config>
