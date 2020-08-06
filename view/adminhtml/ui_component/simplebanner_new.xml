@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="editor"/>
+    <body>
+        <referenceContainer name="content">
+            <block class="Kappa\Marvis\Block\Adminhtml\Simplebanner\Edit" name="simplebanner_new"/>
+        </referenceContainer>
+        <referenceContainer name="left">
+            <block class="Kappa\Marvis\Block\Adminhtml\Simplebanner\Edit\Tabs" name="simplebanner_new_simplebanner_tabs">
+                <block class="Kappa\Marvis\Block\Adminhtml\Simplebanner\Edit\Tab\General" name="simplebanner_new_tab_general"/>
+                <block class="Kappa\Marvis\Block\Adminhtml\Simplebanner\Edit\Tab\Design" name="simplebanner_new_tab_design"/>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">general</argument>
+                    <argument name="block" xsi:type="string">simplebanner_new_tab_general</argument>
+                </action>
+                <action method="addTab">
+                    <argument name="name" xsi:type="string">design</argument>
+                    <argument name="block" xsi:type="string">simplebanner_new_tab_design</argument>
+                </action>
+            </block>
+        </referenceContainer>
+    </body>
+</page>
